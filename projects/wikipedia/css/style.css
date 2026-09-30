@@ -1,39 +1,38 @@
-body{
+body {
     background-color: #dee6f1;
     font-size: 16px;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, seri;
+    margin: 10px;
 }
-h1{ text-align: center;
+
+h1 {
+    text-align: center;
     color: #051040;
-    font-family:brush script mt;
+    font-family: brush script mt;
     font-size: 3.125em;
 
 }
-p{font-family:times new roman;
-    font-size: 1em;
-    color:darkblue;
-    margin: 10px;
-    padding: 10px;
 
+p {
+    padding: 0 0 10px 0;
 }
-h2{font-family:brush script mt;
+
+h2 {
+    font-family: brush script mt, serif;
     font-size: 2.5em;
-    color:rgb(4, 4, 43);
-    margin: 10px;
-
-}
-
-img{float: right;
-    margin: 10px;
-}
-
-.header-blocks{ 
+    color: rgb(4, 4, 43);
+    padding: 10px;
     background-color: #9baad2;
-    margin: 10px;
-
 }
 
-#footer-block{
+img {
+    float: right;
+    margin: 10px;
+}
+
+
+footer {
     background-color: #9baad2;
-    width: 100%;
-    position: fixed;
+    margin: 2em 0 0 0;
 }
