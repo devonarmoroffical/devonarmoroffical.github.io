@@ -1,0 +1,88 @@
+.navbar {
+    background-color: #b62828;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border-bottom: 10px solid #fff7e8;
+
+}
+
+.nav-links {
+    color: rgb(41, 0, 0);
+    margin-left: auto;
+    font-family: 'Arvo', serif;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: #8e661c;
+}
+
+body {
+    background-color: #faf0e2;
+    padding-top: 60px;
+    font-family: 'Esteban'
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    padding-top: 60px;
+    align-items: stretch;
+}
+
+.left-container {
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.phrase-big {
+    background-color: #f6e4ca;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #D4AF37;
+}
+
+.about-right {
+    border: 5px solid #D4AF37;
+    background-color: #f6e4ca;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.about-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid #D4AF37;
+}
+
+.right-container {
+    width: 60%;
+    padding: 35px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 40px;
+}
+
+.merillogo {
+    height: 225px;
+    padding-left: 40px;
+}
