@@ -1,17 +1,20 @@
+/* nav bar use on all pages 8 */
+
 .navbar {
-    background-color: #b62828;
+    background-color: #020228;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 60px;
     display: flex;
-    border-bottom: 10px solid #fff7e8;
+    border-bottom: 5px;
+    padding-bottom: 5px;
 
 }
 
 .nav-links {
-    color: rgb(41, 0, 0);
+    color: rgb(250, 245, 245);
     margin-left: auto;
     font-family: 'Arvo', serif;
     list-style: none;
@@ -21,16 +24,25 @@
     padding-right: 20px;
 }
 
-a {
+body a {
+    color: rgb(250, 245, 245);
     text-decoration: none;
-    text-decoration-color: #8e661c;
 }
 
+a:hover {
+    color: #c0c0bf;
+}
+
+
+/* body use on all pages */
+
 body {
-    background-color: #faf0e2;
+    background-color: #edfaff;
     padding-top: 60px;
     font-family: 'Esteban'
 }
+
+/* homepage */
 
 .home-container {
     display: flex;
@@ -38,7 +50,7 @@ body {
     align-items: stretch;
     height: 100%;
     padding-top: 60px;
-    align-items: stretch;
+    color: rgb(236, 240, 250);
 }
 
 .left-container {
@@ -46,22 +58,24 @@ body {
     padding: 5px;
     text-align: center;
     padding-right: 40px;
+    align-items: stretch;
+
 }
 
 .phrase-big {
-    background-color: #f6e4ca;
+    background-color: #020228;
     padding: 5px;
     border-radius: 30px;
     font-size: 40px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 5px solid #D4AF37;
+    border: 8px solid #98d6e6;
 }
 
 .about-right {
-    border: 5px solid #D4AF37;
-    background-color: #f6e4ca;
+    border: 5px solid #98d6e6;
+    background-color: #020228;
     padding: 10px;
     border-radius: 30px;
 }
@@ -71,7 +85,7 @@ body {
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
-    border: 5px solid #D4AF37;
+    border: 2px solid #98d6e6;
 }
 
 .right-container {
@@ -85,4 +99,106 @@ body {
 .merillogo {
     height: 225px;
     padding-left: 40px;
+}
+
+/* clipspage */
+
+.clips-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    height: 100%;
+    padding: 20px;
+}
+
+.cliplinks {
+    color: #98d6e6;
+    text-decoration: underline;
+}
+
+.cliplinks:hover {
+    color: #c0c0bf;
+}
+
+.clipphotos {
+    width: 100%;
+    height: auto;
+    border: 5px solid #98d6e6;
+    border-radius: 4px;
+}
+
+/* resume */
+
+.resume-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #D4AF37;
+}
+
+/* contact  */
+.contact-container {
+    padding: 20px;
+    display: flex;
+    margin-top: 10px;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-bio {
+    max-width: 350px;
+    background-color: #03075c;
+    border-radius: 10px;
+    border: 5px solid #4d52ee;
+    color: rgb(250, 245, 245);
+    padding: 10px;
+    font-size: x-large
+}
+
+.contact-info {
+    max-width: 250px;
+    height: 100%;
+    background-color: #03075c;
+    border-radius: 10px;
+    border: 5px solid #4d52ee;
+    color: rgb(250, 245, 245);
+    padding: 10px;
+}
+
+.contactheader {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* resume page */
+
+.resume-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #020228;
+}
+
+.googledrivebutton {
+    display: inline-block;
+    align: left;
+    padding: 5px 10px;
+    background-color: #98d6e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contactmelinks:hover {
+    color: #c0c0bf;
+}
+
+.contactmelinks {
+    color: #98d6e6;
+    text-decoration: none;
 }
