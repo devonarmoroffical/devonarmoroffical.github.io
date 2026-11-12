@@ -1,4 +1,22 @@
-/* nav bar use on all pages 8 */
+body {
+    background-color: #edfaff;
+    color: #020228;
+    font-family: "Esteban", serif;
+
+}
+
+body a {
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c0c0bf;
+}
+
+main {
+    margin: 160px 0;
+}
 
 .navbar {
     background-color: #020228;
@@ -6,9 +24,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 80px;
     display: flex;
-    border-bottom: 5px;
+    border-bottom: 5px solid #98d6e6;
     padding-bottom: 5px;
 
 }
@@ -24,81 +42,27 @@
     padding-right: 20px;
 }
 
-body a {
+
+.navy-bg {
     color: rgb(250, 245, 245);
-    text-decoration: none;
-}
-
-a:hover {
-    color: #c0c0bf;
-}
-
-
-/* body use on all pages */
-
-body {
-    background-color: #edfaff;
-    padding-top: 60px;
-    font-family: 'Esteban'
-}
-
-/* homepage */
-
-.home-container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    height: 100%;
-    padding-top: 60px;
-    color: rgb(236, 240, 250);
-}
-
-.left-container {
-    width: 30%;
-    padding: 5px;
-    text-align: center;
-    padding-right: 40px;
-    align-items: stretch;
+    background-color: #020228;
+    border: 8px solid #98d6e6;
+    padding: 10px;
+    border-radius: 30px;
 
 }
 
 .phrase-big {
-    background-color: #020228;
-    padding: 5px;
-    border-radius: 30px;
     font-size: 40px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 8px solid #98d6e6;
-}
-
-.about-right {
-    border: 5px solid #98d6e6;
-    background-color: #020228;
-    padding: 10px;
-    border-radius: 30px;
 }
 
 .about-img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
     border-radius: 10px;
     border: 2px solid #98d6e6;
-}
-
-.right-container {
-    width: 60%;
-    padding: 35px;
-    border-radius: 10px;
-    padding: 5px;
-    padding-right: 40px;
-}
-
-.merillogo {
-    height: 225px;
-    padding-left: 40px;
+    margin: 20px 0;
 }
 
 /* clipspage */
@@ -136,41 +100,17 @@ body {
     border: 5px solid #D4AF37;
 }
 
-/* contact  */
-.contact-container {
-    padding: 20px;
-    display: flex;
-    margin-top: 10px;
-    gap: 80px;
-    align-items: center;
-    justify-content: center;
-}
+.contact-txt {
+    font-size: 1.2em;
 
-.contact-bio {
-    max-width: 350px;
-    background-color: #03075c;
-    border-radius: 10px;
-    border: 5px solid #4d52ee;
-    color: rgb(250, 245, 245);
-    padding: 10px;
-    font-size: x-large
-}
-
-.contact-info {
-    max-width: 250px;
-    height: 100%;
-    background-color: #03075c;
-    border-radius: 10px;
-    border: 5px solid #4d52ee;
-    color: rgb(250, 245, 245);
-    padding: 10px;
 }
 
 .contactheader {
-    font-size: 70px;
+    font-size: 4.375em;
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
+    color: #020228;
 }
 
 /* resume page */
@@ -191,14 +131,4 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.contactmelinks:hover {
-    color: #c0c0bf;
-}
-
-.contactmelinks {
-    color: #98d6e6;
-    text-decoration: none;
 }
