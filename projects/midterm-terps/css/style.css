@@ -1,0 +1,87 @@
+h1 {
+    font-style: italic;
+    font-size: 3.125em;
+    font-family: "Oswald", serif;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+.attribution {
+    font-size: 10px;
+}
+
+.img-padding {
+    padding-bottom: 10px;
+}
+
+.overline {
+    color: #C5271D;
+    font-weight: bold;
+    font-size: 12px
+}
+
+header {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+main {
+    font-family: "Work Sans", sans-serif;
+    font-size: .75em;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.section-margin {
+    margin-bottom: 30px;
+}
+
+.wheres-testudo {
+    padding: 10px;
+}
+
+.mascot-box {
+    padding: 10px;
+
+}
+
+.bottom-section {
+    color: #f5f5f5;
+    font-size: 12px;
+    background-color: #C5271D;
+    margin: 40px;
+}
+
+.timeline {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+
+}
+
+.mainsz {
+    align-items: center;
+    justify-content: center;
+    width:55%
+}
+
+@media (max-width: 767px) {
+    mainsz{
+        width: 95%;
+    }
+}
